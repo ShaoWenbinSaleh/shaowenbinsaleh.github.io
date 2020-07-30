@@ -13,7 +13,8 @@ class App extends React.Component {
 
         return this.props.projects.map((projectName, index) =>
             <li className="project-title" key={index}><a href="#"
-                onClick={() => this.handleClick(index)}>{projectName.title}</a></li>
+                                                         onClick={() => this.handleClick(index)}>{projectName.title}</a>
+            </li>
         );
     }
 
@@ -31,12 +32,12 @@ class App extends React.Component {
         if (videoURL !== undefined) {
             return (
                 <div className="embed">
-                <div className="embed-dimensions">
-                    <div className="embed-aspect-ratio">
-                        <iframe src={videoURL} frameBorder="0" allowFullScreen
-                                className="embed-content"/>
+                    <div className="embed-dimensions">
+                        <div className="embed-aspect-ratio">
+                            <iframe src={videoURL} frameBorder="0" allowFullScreen
+                                    className="embed-content"/>
+                        </div>
                     </div>
-                </div>
                 </div>
             );
         }
@@ -72,6 +73,24 @@ class App extends React.Component {
         }
     }
 
+    renderContactPage() {
+        return (
+            <div className="page-container" data-context="page.page.container">
+                <section className="page standard-modules">
+                    <header className="page-header content" data-context="pages" data-menu="Page Header">
+                        <h1 className="title preserve-whitespace">Contact</h1>
+                        <p className="description">Greetings from Shao!</p>
+                    </header>
+                    <div className="project-module button project-module-button">
+                        <div className="button-container">
+                            <a href="https://www.linkedin.com/in/shaowenbin/" className="button-module">Linkedin</a>
+                            <a href="mailto:shao.wenbin@hotmail.com" className="button-module">Email</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        );
+    }
 
     renderProjectPage(pageIndex) {
         let pageInfo = this.props.projects[pageIndex];
@@ -168,17 +187,15 @@ class App extends React.Component {
         if (currentPageIndex === -1) {
             //home page
             pageContent =
-                <section className="project-covers js-editable-target editable"
-                         data-context="page.gallery.covers">
+                <section className="project-covers" data-context="page.gallery.covers">
                     {this.renderProjectPreview()}
                 </section>;
 
-        }
-        else if (currentPageIndex === -2) {
+        } else if (currentPageIndex === -2) {
             //contact
+            pageContent = this.renderContactPage();
 
-        }
-        else {
+        } else {
             pageContent = this.renderProjectPage(currentPageIndex);
         }
 
@@ -219,14 +236,7 @@ const projectsData =
                 "video": "https://www.youtube.com/embed/0rEvH_zsS-4",
                 "googlePlay": "https://play.google.com/store/apps/details?id=com.launcher.theme3d.t600000805"
             },
-            {
-                "title": "Shower Hour",
-                "preview": "assets/preview/showerhour.png",
-                "subtitle": "Game, Teamwork",
-                "text": "A small game made within 48 hours in Global Game Jam 2019, HKU. Served as the game developer.",
-                "video": "https://www.youtube.com/embed/aLWuX9vzsJA",
-                "globalGameJam": "https://globalgamejam.org/2019/games/shower-hour"
-            },
+
 
             {
                 "title": "CM Launcher",
@@ -236,6 +246,16 @@ const projectsData =
                 "video": "https://www.youtube.com/embed/6q6k2PI0JTc",
                 "googlePlay": "https://play.google.com/store/apps/details?id=com.ksmobile.launcher",
                 "androidRank": "https://www.androidrank.org/application/cm_launcher_3d_themes_wallpapers/com.ksmobile.launcher"
+            },
+
+            {
+                "title": "Cheetah Keyboard",
+                "preview": "assets/preview/cmkeyboard.png",
+                "subtitle": "Mobile App, Team Work, Available in GooglePlay/AppStore",
+                "text": "Powerful keyboard App with dynamic 3D effects and advanced AI in input prediction.",
+                "video": "https://www.youtube.com/embed/B9T5emdKoSQ",
+                "googlePlay": "https://play.google.com/store/apps/details?id=panda.keyboard.emoji.theme",
+                "appStore": "https://apps.apple.com/app/apple-store/id1249925656"
             },
 
             {
@@ -257,22 +277,56 @@ const projectsData =
             },
 
             {
-                "title": "Cheetah Keyboard",
-                "preview": "assets/preview/cmkeyboard.png",
-                "subtitle": "Mobile App, Team Work, Available in GooglePlay/AppStore",
-                "text": "Powerful keyboard App with dynamic 3D effects and advanced AI in input prediction.",
-                "video": "https://www.youtube.com/embed/B9T5emdKoSQ",
-                "googlePlay": "https://play.google.com/store/apps/details?id=panda.keyboard.emoji.theme",
-                "appStore": "https://apps.apple.com/app/apple-store/id1249925656"
-            },
-
-            {
                 "title": "London Big Ben Clock 3D Theme",
                 "preview": "assets/preview/bigben.png",
                 "subtitle": "Mobile App, Indie Work, Available in GooglePlay",
                 "text": "An interactive Android theme with 3D effects and melody.",
                 "image": "assets/img/bigben.png",
                 "googlePlay": "https://play.google.com/store/apps/details?id=uk.london.theme3d"
+            },
+
+            {
+                "title": "Transparent Screen",
+                "preview": "assets/preview/transparent.png",
+                "subtitle": "Mobile App, Indie Work, Available in GooglePlay",
+                "text": "Transparent Screen is a 3D launcher transparent theme which has transparent screen live wallpaper and designed icon pack.",
+                "image": "assets/img/transparent.png",
+                "googlePlay": "https://play.google.com/store/apps/details?id=transparent.screen.theme.wallpaper"
+            },
+
+            {
+                "title": "Kitty fixes Miauwble (game)",
+                "preview": "assets/preview/kitty.png",
+                "subtitle": "Game, Teamwork",
+                "text": "A small game made within 48 hours in Global Game Jam 2020, HKU. Served as the game developer.",
+                "video": "https://www.youtube.com/embed/AVXLFcdbh10",
+                "globalGameJam": "https://globalgamejam.org/2020/games/kitty-fixes-miauwble-6"
+            },
+
+            {
+                "title": "Shower Hour (game)",
+                "preview": "assets/preview/showerhour.png",
+                "subtitle": "Game, Teamwork",
+                "text": "A small game made within 48 hours in Global Game Jam 2019, HKU. Served as the game developer.",
+                "video": "https://www.youtube.com/embed/aLWuX9vzsJA",
+                "globalGameJam": "https://globalgamejam.org/2019/games/shower-hour"
+            },
+
+            {
+                "title": "Ring Ring Zoo (game)",
+                "preview": "assets/preview/ringringzoo.png",
+                "subtitle": "Game, Student Work",
+                "text": "A puzzle game developed when I was in London cooperating with two artists.",
+                "video": "https://www.youtube.com/embed/4WlojunSWxo",
+            },
+
+            {
+                "title": "Learn Tibetan",
+                "preview": "assets/preview/tibetan.png",
+                "subtitle": "Mobile App, Student Work, Available in AppStore",
+                "text": "Developed in June 2014, this game has been ranked as the top10 education game in AppStore for over three months",
+                "image": "assets/img/learntibetan.png",
+                "globalGameJam": "https://globalgamejam.org/2019/games/shower-hour"
             }
         ]
     };

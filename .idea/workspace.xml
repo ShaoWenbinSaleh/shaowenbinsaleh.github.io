@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa1dcbdb-5963-4db2-b472-4762e85345d6" name="Default Changelist" comment="temp">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa1dcbdb-5963-4db2-b472-4762e85345d6" name="Default Changelist" comment="change to React">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shaowenbinsaleh.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shaowenbinsaleh.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm-keyboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/cm-keyboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/maincc36.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/maincc36.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/typekit.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/typekit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/8d56379820e8deb15504a42f1071ad061571647913f526.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/translationscc36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/16c979c6-524e-4cf3-a74c-98f6697cbe98_rwc_21x29x471x368x3211a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/804b943968f4c6044f8b474c1105898615716479139cf4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/84def816-cd54-4a9b-8e73-bb442781f3a4_rwc_0x60x586x458x327e3b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/b00bf6f7422fa446a74f3adfe36581b11571647913f983.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/b11ddd2a18cb37c1962cf06fc2e95fb715716479134e24.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/b16e0bdb1ebf7625b010fafdae172ae91571647913b3f1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf1.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/c98366aa2c3cd3053d99eef155b5feaa1571647913eb9b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf2.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/36f142225b4e5d3dbfc32ce0650153dd1571647913692b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf2.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/39ea37f57286fd9bfe7e45c5ead20c5615716479133b33.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf2.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/3a2c85ff67dfd0301910da33645912551571647913e206.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf2.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/d08684f5-66d8-4a0f-bfa5-7e7168a88f0a_rwc_290x0x638x500x32efed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf3.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/e5de0aa75e4dca18c61526bdd49801571571647913f99a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf4.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/5326f9a6220eb0fd240925c08d8ca3f21571647913cee4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf4.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/fa6f2b29a0938e44ab4aba7a372ce7121571647913db18.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf6.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/0d2ef042-02a8-4c3e-99bd-e7b9e0b7f9a0_rwc_163x22x822x643x324f2f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf6.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/717829a48b5fad64747b7bf2f577ae731571647913c2d4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/000e7e89-692a-47b2-912f-1545c29262c1_carw_202x158x320f24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/1c3ae01b-635e-4725-b697-e841646caa01_carw_202x158x321a1e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/1d2eb0b1-0038-4182-9f41-a9642c93d49b_carw_202x158x32a4fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/4219eb69-7c9b-4fc0-81f9-fe5775ff98b6_rw_1200aac1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/4219eb69-7c9b-4fc0-81f9-fe5775ff98b6fa66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/4b03c970-c5c7-4c6e-bf38-f433f0ec7ac2_carw_202x158x32f124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/5e73bc59-b9f4-4753-b2db-3ac75e6329d9_rwc_23x0x440x345x327df2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/65e133db-7f01-482d-ab06-270961002b6b_rwc_151x0x787x617x32dcea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/6c9b82e6-8c3c-471f-bc4b-342b21dfca19_carw_202x158x32b3dc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/948a4b45-a463-4e73-9ce6-4e0819a729cb_carw_202x158x32925b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/bd9f8f54-ca69-475c-9a1d-45a546f453694db2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/bd9f8f54-ca69-475c-9a1d-45a546f45369_rw_120093cf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/ce23c921-2c71-4556-b82c-967f17a7b9259bf5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/ce23c921-2c71-4556-b82c-967f17a7b925_rw_1200dd98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/cf6195ef-d264-4640-b846-d48b95cd3519899b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/cf6195ef-d264-4640-b846-d48b95cd3519_rw_19208fa3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/d32ba7b7-1995-4344-b61f-506b8fa301a114fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/d32ba7b7-1995-4344-b61f-506b8fa301a1_rw_60046fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/d7a1f824-957a-4eab-bf39-254eb9888067_rwc_207x0x775x607x32c941.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar.myportfolio.com/v1/assets/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/ebffff8e-5829-4e66-911b-1ecedf8eff08_carw_202x158x322ea5.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +100,7 @@
       <workItem from="1584556577310" duration="150000" />
       <workItem from="1593698655471" duration="1708000" />
       <workItem from="1596034700730" duration="860000" />
-      <workItem from="1596066862317" duration="3601000" />
+      <workItem from="1596066862317" duration="6714000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <created>1581983265879</created>
@@ -127,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="temp" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp" />
+    <MESSAGE value="change to React" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to React" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1596070729248">
@@ -138,5 +164,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="341" y="183" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596069597979" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1596073307151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596073307151" />
   </component>
 </project>
