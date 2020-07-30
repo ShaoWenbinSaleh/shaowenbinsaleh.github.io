@@ -1,95 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa1dcbdb-5963-4db2-b472-4762e85345d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3d-ruby-theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d-ruby-theme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backgrounds-hd-wallpapers.html" beforeDir="false" afterPath="$PROJECT_DIR$/backgrounds-hd-wallpapers.html" afterDir="false" />
+    <list default="true" id="fa1dcbdb-5963-4db2-b472-4762e85345d6" name="Default Changelist" comment="temp">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shaowenbinsaleh.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shaowenbinsaleh.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cm-keyboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/cm-keyboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm-launcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/cm-launcher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-tech-3d-live-theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/glass-tech-3d-live-theme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/maincc36.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/maincc36.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/typekit.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/typekit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-tibetan.html" beforeDir="false" afterPath="$PROJECT_DIR$/learn-tibetan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lively-koi-fish-3d-theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/lively-koi-fish-3d-theme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/london-big-ben-clock-3d-theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/london-big-ben-clock-3d-theme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ring-ring-zoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ring-ring-zoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shower-hour.html" beforeDir="false" afterPath="$PROJECT_DIR$/shower-hour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/square-it.html" beforeDir="false" afterPath="$PROJECT_DIR$/square-it.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transparent-screen.html" beforeDir="false" afterPath="$PROJECT_DIR$/transparent-screen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voilent-loli.html" beforeDir="false" afterPath="$PROJECT_DIR$/voilent-loli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-ninjia.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-ninjia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro2-bar-s3-cdn-cf.myportfolio.com/9d0ac312-53d4-456b-a2d3-7022ed5abc8e/8d56379820e8deb15504a42f1071ad061571647913f526.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/translationscc36" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="y" value="37" />
-    <option name="width" value="1942" />
-    <option name="height" value="1178" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shaowenbinsaleh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaowenbinsaleh.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaowenbinsaleh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaowenbinsaleh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="pro2-bar.myportfolio.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaowenbinsaleh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaowenbinsaleh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="use.typekit.net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaowenbinsaleh.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaowenbinsaleh.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="use.typekit.net" type="462c0819:PsiDirectoryNode" />
-              <item name="ik" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1ZDh6GbjOOg9nT1KpGuJkYRavC2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20184770\Documents\GitHub\shaowenbinsaleh.github.io\dist\css" />
+      <recent name="C:\Users\20184770\Documents\GitHub\shaowenbinsaleh.github.io\dist\js" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,36 +63,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571649973913</updated>
-      <workItem from="1571649975145" duration="32000" />
+      <workItem from="1571649975145" duration="186000" />
+      <workItem from="1579102780428" duration="216000" />
+      <workItem from="1581979676511" duration="704000" />
+      <workItem from="1581980402202" duration="2606000" />
+      <workItem from="1581983182909" duration="10198000" />
+      <workItem from="1582014928588" duration="5568000" />
+      <workItem from="1582028026342" duration="11000" />
+      <workItem from="1582076100708" duration="92000" />
+      <workItem from="1584379395920" duration="8156000" />
+      <workItem from="1584556577310" duration="150000" />
+      <workItem from="1593698655471" duration="1708000" />
+      <workItem from="1596034700730" duration="860000" />
+      <workItem from="1596066862317" duration="3601000" />
     </task>
+    <task id="LOCAL-00001" summary="temp">
+      <created>1581983265879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581983265879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="temp">
+      <created>1581984947232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581984947232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="temp">
+      <created>1581991878448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581991878448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="temp">
+      <created>1581992892751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581992892751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="temp">
+      <created>1581992924359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581992924359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="temp">
+      <created>1582027897766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582027897767</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1596070729248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596070729248" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1596069597979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596069597979" />
   </component>
 </project>

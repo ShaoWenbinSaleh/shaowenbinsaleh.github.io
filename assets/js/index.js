@@ -12,11 +12,67 @@ class App extends React.Component {
     renderProjectList() {
 
         return this.props.projects.map((projectName, index) =>
-            <li className="project-title" key={index}><a
+            <li className="project-title" key={index}><a href="#"
                 onClick={() => this.handleClick(index)}>{projectName.title}</a></li>
         );
     }
-    
+
+    renderProjectImage(imageFile) {
+        if (imageFile !== undefined) {
+            return (
+                <div>
+                    <img src={imageFile} width="1200"/>
+                </div>
+            );
+        }
+    }
+
+    renderProjectVideo(videoURL) {
+        if (videoURL !== undefined) {
+            return (
+                <div className="embed">
+                <div className="embed-dimensions">
+                    <div className="embed-aspect-ratio">
+                        <iframe src={videoURL} frameBorder="0" allowFullScreen
+                                className="embed-content"/>
+                    </div>
+                </div>
+                </div>
+            );
+        }
+    }
+
+    renderProjectButton(link, name) {
+        return (
+            <a href={link} className="button-module">{name}</a>
+        );
+    }
+
+    renderGooglePlayButton(link) {
+        if (link !== undefined) {
+            return this.renderProjectButton(link, "Google Play");
+        }
+    }
+
+    renderAppStoreButton(link) {
+        if (link !== undefined) {
+            return this.renderProjectButton(link, "App Store");
+        }
+    }
+
+    renderAndroidRankButton(link) {
+        if (link !== undefined) {
+            return this.renderProjectButton(link, "Android Rank");
+        }
+    }
+
+    renderGlobalGameJamButton(link) {
+        if (link !== undefined) {
+            return this.renderProjectButton(link, "Global Game Jam");
+        }
+    }
+
+
     renderProjectPage(pageIndex) {
         let pageInfo = this.props.projects[pageIndex];
 
@@ -30,6 +86,16 @@ class App extends React.Component {
             <div className="page-container" data-context="page.page.container">
                 <section className="page standard-modules">
                     {pageHeader}
+                    {this.renderProjectImage(pageInfo.image)}
+                    {this.renderProjectVideo(pageInfo.video)}
+                    <div className="project-module button project-module-button">
+                        <div className="button-container">
+                            {this.renderGooglePlayButton(pageInfo.googlePlay)}
+                            {this.renderAppStoreButton(pageInfo.appStore)}
+                            {this.renderAndroidRankButton(pageInfo.androidRank)}
+                            {this.renderGlobalGameJamButton(pageInfo.globalGameJam)}
+                        </div>
+                    </div>
                 </section>
             </div>
         );
@@ -40,6 +106,7 @@ class App extends React.Component {
 
         return this.props.projects.map((projectPreview, index) =>
             <a className="project-cover js-project-cover-touch hold-space"
+               href="#"
                onClick={() => this.handleClick(index)}
                data-context="pages" key={index}>
                 <div className="cover-image-wrap">
@@ -47,7 +114,7 @@ class App extends React.Component {
                         <div className="cover cover-normal">
                             <img
                                 className="cover__img js-lazy"
-                                src={projectPreview.image}
+                                src={projectPreview.preview}
                                 data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
                             />
                         </div>
@@ -71,7 +138,7 @@ class App extends React.Component {
                 <header className="site-header">
                     <div className="logo-wrap js-editable-target editable">
                         <div className="logo logo-text  ">
-                            <a onClick={() => this.handleClick(-1)}
+                            <a href="#" onClick={() => this.handleClick(-1)}
                                className="preserve-whitespace">Shao Wenbin Saleh</a>
                         </div>
                         <div className="logo-secondary logo-secondary-text ">
@@ -82,13 +149,13 @@ class App extends React.Component {
                 <nav>
                     <ul className="group">
                         <li className="gallery-title">
-                            <a onClick={() => this.handleClick(-1)}
+                            <a href="#" onClick={() => this.handleClick(-1)}
                                className="active">Work</a>
                         </li>
                         {this.renderProjectList()}
                     </ul>
                     <div className="page-title">
-                        <a onClick={() => this.handleClick(-2)}>Contact</a>
+                        <a href="#" onClick={() => this.handleClick(-2)}>Contact</a>
                     </div>
                 </nav>
             </div>
@@ -98,7 +165,7 @@ class App extends React.Component {
     render() {
         const currentPageIndex = this.state.currentPage;
         let pageContent;
-        if (currentPageIndex == -1) {
+        if (currentPageIndex === -1) {
             //home page
             pageContent =
                 <section className="project-covers js-editable-target editable"
@@ -107,7 +174,7 @@ class App extends React.Component {
                 </section>;
 
         }
-        else if (currentPageIndex == -2) {
+        else if (currentPageIndex === -2) {
             //contact
 
         }
@@ -144,6 +211,61 @@ const projectsData =
                 "image": "assets/img/background.png",
                 "googlePlay": "https://play.google.com/store/apps/details?id=hd.backgrounds.wallpapers.theme"
             },
+            {
+                "title": "Lively Koi Fish 3D Theme",
+                "preview": "assets/preview/koifish.png",
+                "subtitle": "Mobile App, Indie Work, Available in GooglePlay",
+                "text": "The Lively Koi Fish 3D Theme with incredible 3D water ripple animation will be one of the supreme beautiful therapeutic scenery themes will bring your phone screen a brand new look.",
+                "video": "https://www.youtube.com/embed/0rEvH_zsS-4",
+                "googlePlay": "https://play.google.com/store/apps/details?id=com.launcher.theme3d.t600000805"
+            },
+            {
+                "title": "Shower Hour",
+                "preview": "assets/preview/showerhour.png",
+                "subtitle": "Game, Teamwork",
+                "text": "A small game made within 48 hours in Global Game Jam 2019, HKU. Served as the game developer.",
+                "video": "https://www.youtube.com/embed/aLWuX9vzsJA",
+                "globalGameJam": "https://globalgamejam.org/2019/games/shower-hour"
+            },
+
+            {
+                "title": "CM Launcher",
+                "preview": "assets/preview/cml.png",
+                "subtitle": "Mobile App, Teamwork, Available in GooglePlay",
+                "text": "The most popular Android Launcher with millions of users. The App I mainly work on during 2016 and 2017.",
+                "video": "https://www.youtube.com/embed/6q6k2PI0JTc",
+                "googlePlay": "https://play.google.com/store/apps/details?id=com.ksmobile.launcher",
+                "androidRank": "https://www.androidrank.org/application/cm_launcher_3d_themes_wallpapers/com.ksmobile.launcher"
+            },
+
+            {
+                "title": "Glass Tech 3D Live Theme",
+                "preview": "assets/preview/glass.png",
+                "subtitle": "Mobile App, Teamwork, Available in GooglePlay",
+                "text": "3D Android theme with real-time lighting effects.",
+                "video": "https://www.youtube.com/embed/zU9Tjx2vW4o",
+                "googlePlay": "https://play.google.com/store/apps/details?id=theme.icon.glass.tech.live3d",
+                "androidRank": "https://www.androidrank.org/application/glass_tech_3d_live_theme/theme.icon.glass.tech.live3d"
+            },
+
+            {
+                "title": "3D ruby theme",
+                "preview": "assets/preview/ruby.png",
+                "subtitle": "Mobile App, Indie Work, Available in GooglePlay",
+                "text": "Android theme App with real-time 3d effects benefited by GLSL.",
+                "video": "https://www.youtube.com/embed/KJx-AQCFLK0"
+            },
+
+            {
+                "title": "Cheetah Keyboard",
+                "preview": "assets/preview/cmkeyboard.png",
+                "subtitle": "Mobile App, Team Work, Available in GooglePlay/AppStore",
+                "text": "Powerful keyboard App with dynamic 3D effects and advanced AI in input prediction.",
+                "video": "https://www.youtube.com/embed/B9T5emdKoSQ",
+                "googlePlay": "https://play.google.com/store/apps/details?id=panda.keyboard.emoji.theme",
+                "appStore": "https://apps.apple.com/app/apple-store/id1249925656"
+            },
+
             {
                 "title": "London Big Ben Clock 3D Theme",
                 "preview": "assets/preview/bigben.png",
