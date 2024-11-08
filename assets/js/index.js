@@ -221,6 +221,15 @@ const projectsData =
     {
         "projects": [
             {
+                "title": "Phone Guardian",
+                "preview": "assets/preview/phoneguardian.png",
+                "subtitle": "Mobile App, Team Work, Available in GooglePlay",
+                "text": "A VPN app that protects your phone from hackers and spies.",
+                "image": "assets/img/phoneguardian.png",
+                "video": "https://www.youtube.com/watch?v=dWurY9crBnM",
+                "googlePlay": "https://play.google.com/store/apps/details?id=com.distimo.phoneguardian"
+            },
+            {
                 "title": "Background (HD Wallpapers)",
                 "preview": "assets/preview/hd.png",
                 "subtitle": "Mobile App, Team Work, Available in GooglePlay",
